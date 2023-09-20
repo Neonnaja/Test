@@ -1,0 +1,55 @@
+/* Reset ค่าของ margin และ padding ในหน้าเว็บ */
+body, h1, h2, p, ul, li, img {
+    margin: 0;
+    padding: 0;
+}
+
+/* ตั้งค่าสีพื้นหลังของหน้าเว็บ */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+/* สไตล์ส่วนหัวของหน้าเว็บ */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* สไตล์หัวข้อ */
+h1, h2 {
+    color: #333;
+    margin: 10px 0;
+}
+
+/* สไตล์ข้อมูลเกี่ยวกับฉันและติดต่อ */
+section {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+/* สไตล์รายการในรายการลำดับ */
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+/* สไตล์รูปภาพ */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+/* สไตล์ส่วนท้ายของหน้าเว็บ */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
